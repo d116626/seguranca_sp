@@ -6,3 +6,4 @@
 ### Fonte de Dados [SSP](http://www.ssp.sp.gov.br/Estatistica/Default.aspx)
 - [Dados Estatísticos do Estado de São Paulo](http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx)
 - [Estatísticas Trimestrais](http://www.ssp.sp.gov.br/Estatistica/Trimestrais.aspx)
+- [Consultas](http://www.ssp.sp.gov.br/transparenciassp/Consulta.aspx)
