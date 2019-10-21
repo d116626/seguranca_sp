@@ -16,9 +16,10 @@ class IcmsSpider(scrapy.Spider):
         #list of all cities codes
         years = [str(i) for i in range(2002,2020)]
         regiao = '0'
-        municipipos =[str(i) for i in range(1,645)]
+        municipipos =[str(i) for i in range(1,646)]
         delegacia = '0'
         #iterate over all cities and years
+        i=0
         for municipipo in municipipos:
             for year in years:
                 EVENTVALIDATION = response.xpath("//*[@id='__EVENTVALIDATION']/@value").extract_first()
@@ -37,6 +38,10 @@ class IcmsSpider(scrapy.Spider):
                 header = {
                     'Content-Type':' application/x-www-form-urlencoded'
                 }
+                if i ==0:
+                    df = pd.DataFrame(columns=[i for i in range(1,31)])
+                    df.to_csv('ssp_ocorrecencias_registradas.csv',mode='a', header=True ,index=False, encoding='utf-8')
+                i+=1
                 yield scrapy.FormRequest(self.site_url, headers=header, formdata = data, callback=self.parse_months,  dont_filter=False)
 
     def parse_months(self,response):
