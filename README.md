@@ -9,6 +9,7 @@
 - [Consultas](http://www.ssp.sp.gov.br/transparenciassp/Consulta.aspx)
 - [NEV](https://nev.prp.usp.br/projetos/projetos-especiais/)
 - [FORUM BRASILEIRO DE SEGURANÇA PÚBLICA](http://www.forumseguranca.org.br/)
+- [Anuário Brasileiro de Segurança Pública](http://www.forumseguranca.org.br/publica/)
 
 
 ### [Monitor da Violência](https://g1.globo.com/monitor-da-violencia/)
