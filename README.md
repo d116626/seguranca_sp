@@ -16,3 +16,22 @@
 - [Mapa Violência](http://especiais.g1.globo.com/monitor-da-violencia/2018/mortes-violentas-no-brasil/#/dados-mensais-2019?mes_2019=consolidado&estado=MA&estado_compare=SP&crime=Homic%C3%ADdio%20doloso)
 
 
+
+## WorkFlow
+
+- Taxas e Mapas
+  - Homicidios
+  - Roubos
+  - Trafico
+  
+- Correlacões
+  - Investimento e Gastos
+  - Contingente Policial
+  - Número de Armas de Fogo
+  - População Carceraria
+  - Social
+  - Educação
+  
+
+
+
